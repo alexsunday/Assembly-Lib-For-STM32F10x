@@ -66,6 +66,7 @@
 
 @ Bus: AHB
 .equ FLASH_BASE,            (0x40022000)
+.equ CRC_BASE,              (0x40023000)
 .equ RCC_BASE,              (0x40021000)
 .equ DMA2_BASE,             (0x40020400)
 .equ DMA1_BASE,             (0x40020000)
@@ -150,7 +151,7 @@
 .equ SysTick_CTRL,			(SysTick_BASE + 0x00)
 .equ SysTick_LOAD,			(SysTick_BASE + 0x04)
 .equ SysTick_VAL,			(SysTick_BASE + 0x08)
-.equ SysTick_CALIB,			(Systick_BASE + 0x0C)
+.equ SysTick_CALIB,			(SysTick_BASE + 0x0C)
 
 .equ FLASH_ACR,				(FLASH_BASE + 0x00)
 
